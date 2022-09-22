@@ -1,0 +1,51 @@
+.aboutPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutPage .aboutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Top Side */
+.aboutPage .aboutContent .aboutTopSide h1 {
+  font-weight: 900;
+  width: 990px;
+  margin-bottom: 10px;
+}
+
+.aboutPage .aboutContent .aboutTopSide h2 {
+  margin-bottom: 30px;
+}
+
+.aboutPage .aboutContent .aboutTopSide p {
+  margin-bottom: 30px;
+}
+
+/* Bottom Side */
+.aboutPage .aboutContent .aboutBottomSide .aboutsArea h3 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1030px) {
+  .aboutPage .aboutContent .aboutTopSide h1 {
+    font-size: 20px;
+  }
+
+  .aboutPage .aboutContent .aboutTopSide h2 {
+    font-size: 18px;
+  }
+
+  .aboutPage .aboutContent .aboutBottomSide .aboutsArea h3 {
+    font-size: 16px;
+    width: 400px;
+  }
+}

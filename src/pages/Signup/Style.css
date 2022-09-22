@@ -1,0 +1,71 @@
+/* Settings */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* The Style */
+.signupArea {
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupArea .signupContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px #0000008e;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.signupArea .signupContent .inputsArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupArea .signupContent .inputsArea input {
+  padding: 10px;
+  border-radius: 15px;
+  outline: 1px solid black;
+  border: 0;
+}
+
+.signupArea .signupContent .inputsArea .inputItem {
+  margin-top: 10px;
+}
+
+.signupArea .signupContent .signupButton {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signupArea .signupContent .resultArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}

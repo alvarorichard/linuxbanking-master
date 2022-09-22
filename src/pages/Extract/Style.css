@@ -1,0 +1,66 @@
+.extractPage {
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+
+.extractPage .algumaLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.extractPage .extractsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.extractPage .extractsContainer .extractTitles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.extractPage .extractsContainer .extractTitles p {
+  font-weight: bold;
+}
+
+.extractPage .extractsContainer .extractTitles #item1 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .extractTitles #item2 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .extractTitles #item3 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .extractTitles #item4 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .extractTitles #item5 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .extractTitles #item6 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .extractTitles #item7 {
+  flex: 1;
+}
+
+.extractPage .extractsContainer .bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 100px;
+  margin: auto;
+  background-color: #0000005e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

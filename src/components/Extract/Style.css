@@ -1,0 +1,35 @@
+.extractItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.extractItem #item1 {
+  flex: 1;
+}
+
+.extractItem #item2 {
+  flex: 1;
+}
+
+.extractItem #item3 {
+  flex: 1;
+}
+
+.extractItem #item4 {
+  flex: 1;
+}
+
+.extractItem #item5 {
+  flex: 1;
+}
+
+.extractItem #item6 {
+  flex: 1;
+}
+
+.extractItem #item7 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}

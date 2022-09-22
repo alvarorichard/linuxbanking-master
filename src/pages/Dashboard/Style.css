@@ -1,0 +1,105 @@
+.dashboardPage {
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://www.gnu.org/graphics/this-is-freedom-wallpaper.png) no-repeat center;
+  background-size: cover;
+}
+
+.dashboardPage .dashboardContent {
+  width: 95%;
+  height: 700px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 60px;
+  box-shadow: 0 0 30px #00000085;
+  background-color: #ffffff;
+}
+
+/* Top Side */
+.dashboardPage .dashboardContent .dashboardTopside {
+  width: 100%;
+  height: 30vh;
+}
+
+.dashboardPage .dashboardContent .dashboardTopside .topSideContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboardPage .dashboardContent .dashboardTopside .topSideContent .showCreditButton {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboardPage .dashboardContent .dashboardTopside .topSideContent .withdrawButton {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Bottom Side */
+.dashboardPage .dashboardContent .dashboardBottomside {
+  width: 100%;
+  height: calc(100vh - 30vh);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboardPage .dashboardContent .dashboardBottomside .extract {
+  box-shadow: 0 0 30px #00000085;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+  transition: all ease 0.6s;
+  background-color: #fff;
+}
+
+.dashboardPage .dashboardContent .dashboardBottomside .extract:hover {
+  background-color: #b9b9b9;
+}
+
+.dashboardPage .dashboardContent .dashboardBottomside .finance {
+  box-shadow: 0 0 30px #00000085;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all ease 0.6s;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.dashboardPage .dashboardContent .dashboardBottomside .finance:hover {
+  background-color: #b9b9b9;
+}

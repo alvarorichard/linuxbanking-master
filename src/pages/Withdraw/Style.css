@@ -1,0 +1,78 @@
+.withdrawPage {
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdrawPage .withdrawItems {
+  background-color: #ffff;
+  box-shadow: 0 0 30px #00000086;
+  width: auto;
+  height: auto;
+  padding: 50px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Top Side */
+.withdrawPage .withdrawItems .withdrawTopside .switchButtonsArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.withdrawPage .withdrawItems .withdrawTopside .switchButtonsArea .switchButtons {
+  margin: 20px;
+}
+
+.withdrawPage .withdrawItems .withdrawTopside .switchButtonsArea .switchButtons button {
+  margin-left: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Bottom Side */
+.withdrawPage .withdrawItems .withdrawBottomside .withdrawInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdrawPage .withdrawItems .withdrawBottomside .withdrawInputs input {
+  padding: 10px;
+  border-radius: 15px;
+  outline: 1px solid black;
+  border: 0;
+  margin-bottom: 5px;
+}
+
+.withdrawPage .withdrawItems .withdrawBottomside .withdrawInputs .finishArea {
+  margin-top: 20px;
+}
+
+.withdrawPage .withdrawItems .withdrawBottomside .withdrawInputs .finishArea button {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
