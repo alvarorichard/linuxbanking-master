@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://i.imgur.com/ZDYkCIM.png" alt="Logo">
+</p>
+
+
 # LinuxBanking
 
 LinuxBanking é um projeto de aplicativo bancário desenvolvido em React com TypeScript. Ele oferece uma interface do usuário interativa para gerenciamento de contas bancárias, exibindo informações de saldo, permitindo saques e depósitos, além de acesso a extratos e detalhes de financiamentos.
